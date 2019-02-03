@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  position: relative;
+  padding: 20px 30px 60px 35px;
+  margin-bottom: 30px;
+  background: linear-gradient(180deg,#ececec 0%,#e4e4e4 100%);
+}
+
+.c0:after {
+  background: linear-gradient(-45deg,#ffffff 25px,transparent 0), linear-gradient(45deg,#ffffff 25px,transparent 0) repeat-x left bottom;
+  background-size: 50px 50px;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:visited {
+  color: #000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:hover {
+  color: #EF4A8D;
+}
+
+.c3 {
+  margin-right: 20px;
+  fill: #000;
+  width: 127px;
+  height: 64px;
+}
+
+.c4 {
+  display: inline-block;
+  font-family: "Playfair Display",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 2.25;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  padding: 8px;
+  margin: 0;
+}
+
+.c4 strong {
+  font-weight: 600;
+}
+
+@media (max-width:600px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+<header
+  class="c0"
+>
+  <nav>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          aria-current="page"
+          href="/"
+        >
+          <svg
+            class="c3"
+          />
+        </a>
+        <p
+          class="c4"
+        >
+          The most definitive shape store in the world
+        </p>
+      </div>
+      <div
+        class="c2"
+      >
+        <a
+          class="c5"
+          href="/cart"
+          style="fill: #000;"
+        >
+          <div
+            class="c2"
+          >
+            <p
+              class="c4"
+              style="margin-right: 6px;"
+            >
+              No
+               items in cart
+            </p>
+            <svg
+              height="52"
+              width="52"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`Button renders 1`] = `
+.c0 {
+  width: 190px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: "Playfair Display",serif;
+  font-weight: 600;
+  border-color: #000;
+  font-style: normal;
+  line-height: 18px;
+  -webkit-letter-spacing: 0.9px;
+  -moz-letter-spacing: 0.9px;
+  -ms-letter-spacing: 0.9px;
+  letter-spacing: 0.9px;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.c0:hover {
+  background-color: #eee;
+}
+
+.c0:active {
+  background-color: #ddd;
+}
+
+.c0:focus {
+  outline: 0;
+}
+
+@media (min-width:600px) {
+  .c0:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width:600px) {
+  .c0 {
+    margin-top: 10px;
+  }
+}
+
+<button
+  class="c0"
+/>
+`;
+
+exports[`Cart renders 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1:not(:last-child) {
+  margin-right: 40px;
+}
+
+.c3 {
+  width: 280;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: "Playfair Display",serif;
+  font-weight: 600;
+  border-color: #000;
+  font-style: normal;
+  line-height: 18px;
+  -webkit-letter-spacing: 0.9px;
+  -moz-letter-spacing: 0.9px;
+  -ms-letter-spacing: 0.9px;
+  letter-spacing: 0.9px;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.c3:hover {
+  background-color: #eee;
+}
+
+.c3:active {
+  background-color: #ddd;
+}
+
+.c3:focus {
+  outline: 0;
+}
+
+.c0 {
+  padding: 20px;
+}
+
+.c2 {
+  font-family: "Playfair Display",sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 36px;
+  -webkit-letter-spacing: 0.36px;
+  -moz-letter-spacing: 0.36px;
+  -ms-letter-spacing: 0.36px;
+  letter-spacing: 0.36px;
+  color: #000;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.c2 span.totalPrice {
+  font-size: 1.6em;
+}
+
+@media (max-width:600px) {
+  .c1:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:600px) {
+  .c3:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    margin-top: 10px;
+  }
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <p
+      class="c2"
+    >
+      Cart is empty
+    </p>
+    <a
+      aria-current="page"
+      href="/"
+    >
+      <button
+        class="c3"
+        width="280"
+      >
+        GO TO PRODUCTS LIST
+      </button>
+    </a>
+  </div>
+</main>
+`;
+
+exports[`Header renders 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  position: relative;
+  padding: 20px 30px 60px 35px;
+  margin-bottom: 30px;
+  background: linear-gradient(180deg,#ececec 0%,#e4e4e4 100%);
+}
+
+.c0:after {
+  background: linear-gradient(-45deg,#ffffff 25px,transparent 0), linear-gradient(45deg,#ffffff 25px,transparent 0) repeat-x left bottom;
+  background-size: 50px 50px;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:visited {
+  color: #000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:hover {
+  color: #EF4A8D;
+}
+
+.c3 {
+  margin-right: 20px;
+  fill: #000;
+  width: 127px;
+  height: 64px;
+}
+
+.c4 {
+  display: inline-block;
+  font-family: "Playfair Display",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 2.25;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  padding: 8px;
+  margin: 0;
+}
+
+.c4 strong {
+  font-weight: 600;
+}
+
+@media (max-width:600px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+<header
+  class="c0"
+>
+  <nav>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          aria-current="page"
+          href="/"
+        >
+          <svg
+            class="c3"
+          />
+        </a>
+        <p
+          class="c4"
+        >
+          The most definitive shape store in the world
+        </p>
+      </div>
+      <div
+        class="c2"
+      >
+        <a
+          class="c5"
+          href="/cart"
+          style="fill: #000;"
+        >
+          <div
+            class="c2"
+          >
+            <p
+              class="c4"
+              style="margin-right: 6px;"
+            >
+              No
+               items in cart
+            </p>
+            <svg
+              height="52"
+              width="52"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+`;

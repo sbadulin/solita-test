@@ -1,0 +1,53 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": [
+    "react",
+    "jest",
+    "prettier",
+    "import"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/display-name": 0,
+    "react/jsx-no-undef": 1,
+    "react/jsx-sort-props": 0,
+    "react/no-this-in-sfc": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-multi-comp": 1,
+    "react/no-unknown-property": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/self-closing-comp": 1,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-class-assign": 0,
+    "react/prop-types": 0,
+    "arrow-body-style": 0,
+    "no-else-return": 0,
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-param-reassign": 0,
+    "no-nested-ternary": 0,
+    "no-return-assign": 0,
+    "no-confusing-arrow": 0,
+    "linebreak-style": 0,
+    "import/prefer-default-export": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}

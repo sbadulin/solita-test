@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`products store searches for product with id 1 1`] = `
+Object {
+  "description": "Perfect choice when you don’t need any corners.",
+  "id": 1,
+  "key": 1,
+  "name": "Circle",
+  "price": 999,
+  "splittedDescription": "Perfect choice when you
+don’t need any corners.",
+}
+`;
+
+exports[`products store searches for products 1`] = `
+Object {
+  "1": Object {
+    "description": "Perfect choice when you don’t need any corners.",
+    "id": 1,
+    "key": 1,
+    "name": "Circle",
+    "price": 999,
+    "splittedDescription": "Perfect choice when you
+don’t need any corners.",
+  },
+  "2": Object {
+    "description": "For once, it’s a great idea to think inside the box.",
+    "id": 2,
+    "key": 2,
+    "name": "Rectangle",
+    "price": 899,
+    "splittedDescription": "For once, it’s a great idea
+to think inside the box.",
+  },
+  "3": Object {
+    "description": "A true classic with three elegant corners.",
+    "id": 3,
+    "key": 3,
+    "name": "Triangle",
+    "price": 1009,
+    "splittedDescription": "A true classic with
+three elegant corners.",
+  },
+}
+`;
