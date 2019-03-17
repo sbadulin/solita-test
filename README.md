@@ -1,5 +1,7 @@
-# Whee-project Instructions
+# Whee-project
 
+Minimalistic shopping cart demo project showcasing usage of styled-components, mobx, reach router and SVGR loader.
+Initially created as test assignment for Solita Oy.
 
 ## Installation 
 
