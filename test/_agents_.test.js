@@ -21,6 +21,7 @@ const productsAgent = {
 
 describe("products agent", () => {
   it("get all products from API", async () => {
+    expect.assertions(1);
     try {
       const { products } = await productsAgent.get();
       expect(products).toMatchSnapshot();
